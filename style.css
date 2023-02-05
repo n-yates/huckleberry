@@ -9,4 +9,70 @@ body {
   padding: 0;
 }
 
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 20px;
+}
+
 /* Add styles here! */
+.title {
+  margin-top: 96px;
+}
+
+header p {
+  margin-top: 48px;
+  width: 415px;
+}
+
+header p strong {
+  color: #009966;
+}
+
+.intro-chunk {
+  max-width: 800px;
+}
+
+.intro-chunk > p:last-of-type {
+  margin-bottom: 64px;
+}
+
+section {
+  border-top: #999999 solid 8px;
+  background-color: #666666;
+  min-height: 450px;
+}
+
+.intro-chunk, .card {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro-chunk > *, .card > * {
+  margin-inline-start: 24px;
+}
+
+.indented-heading {
+  background-color: #FFBF00;
+  margin-inline-start: -8px;
+  padding-inline-start: 32px;
+  padding-inline-end: 32px;
+  height: 60px;
+  border-bottom: #CC9900 solid 8px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.card {
+  background-color: white;
+  border-bottom: #999999 solid 8px;
+  padding-top: 8px;
+  margin-top: 72px;
+  max-width: 800px;
+}
+
+.card p {
+  margin-inline-end: 24px;
+}
